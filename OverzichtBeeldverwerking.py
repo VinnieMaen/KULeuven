@@ -23,14 +23,14 @@ g_out = np.zeros((g_in.shape[1],g_in.shape[0]))
 b_out = np.zeros((b_in.shape[1],b_in.shape[0]))
 
 
-# Herschaleren van de afbeelding (hoogte neemt af met 100px)
+# Herschalen van de afbeelding (hoogte neemt af met 100px)
 
 r_out = np.zeros((r_in.shape[0] - 100,r_in.shape[1]))
 g_out = np.zeros((g_in.shape[0] - 100,g_in.shape[1]))
 b_out = np.zeros((b_in.shape[0] - 100,b_in.shape[1]))
 
 
-# Herschaleren van de afbeelding (breedte neemt af met 100px)
+# Herschalen van de afbeelding (breedte neemt af met 100px)
 
 r_out = np.zeros((r_in.shape[0],r_in.shape[1] - 100))
 g_out = np.zeros((g_in.shape[0],g_in.shape[1] - 100))
