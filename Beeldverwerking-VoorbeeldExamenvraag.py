@@ -68,12 +68,12 @@ def drawCircle(h,w,x1,y1,r1,x2,y2,r2):
 heighth = int(input("Input your canvas height: "))
 width = int(input("Input your canvas width: "))
 
-x1 = int(input("Input x coördinate of the first circle: "))
-y1 = int(input("Input y coördinate of the first circle: "))
+x1 = int(input("Input x coordinate of the first circle: "))
+y1 = int(input("Input y coordinate of the first circle: "))
 r1 = int(input("Input radius of the first circle: ")) 
 
-x2 = int(input("Input x coördinate of the second circle: "))
-y2 = int(input("Input y coördinate of the second circle: "))
+x2 = int(input("Input x coordinate of the second circle: "))
+y2 = int(input("Input y coordinate of the second circle: "))
 r2 = int(input("Input radius of the second circle: ")) 
 
 drawCircle(heighth, width, x1,y1,r1,x2,y2,r2)
