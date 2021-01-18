@@ -50,9 +50,8 @@ def zoekHitteGolven(minT,maxT):
                 minTInWave = []
 
 AANTAL_DAGEN = 36500
-minimumTemperaturen = [.0]*AANTAL_DAGEN
-maximumTemperaturen = [.0]*AANTAL_DAGEN
 
+# SIMULATIE FUNCTIE VAN TEMPERATUREN
 import random
 minimumTemperaturen = []
 for i in range(0,AANTAL_DAGEN):
@@ -64,4 +63,5 @@ for i in range(0,AANTAL_DAGEN):
     n = random.randint(1,10)
     maximumTemperaturen.append(minimumTemperaturen[i] + n)
 
+# AANROEPEN VAN DE FUNCTIE OM HITTEGOLVEN TE VINDEN
 zoekHitteGolven(minimumTemperaturen, maximumTemperaturen)
